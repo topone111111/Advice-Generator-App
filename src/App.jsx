@@ -35,7 +35,7 @@ const App = () => {
       <div className="advice__text">{`“ ${advice} ”`}</div>
       <div className="advice__separator">
         <div className="line"></div>
-        <img src="../src/assets/qts.svg" alt="quotes" />
+        <img src="/public/assets/qts.svg" alt="quotes" />
         <div className="line"></div>
       </div>
       <button
@@ -44,7 +44,7 @@ const App = () => {
         className="advice__cta"
         onClick={() => getRandomAdvice(API_URL)}
       >
-        <img src="../src/assets/logo.svg" alt="logo" />
+        <img src="/public/assets/logo.svg" alt="logo" />
       </button>
     </div>
   );
